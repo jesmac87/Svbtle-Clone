@@ -1,3 +1,15 @@
+/*Media Screen*/
+@media screen and (min-width: 600px){
+	.right_column{
+		display: inline-block;
+	}
+}
+
+
+body{
+	font-family: "Nova Mono";
+}
+
 header{
 	/*background-color: red;*/
 	height: 75px;
@@ -10,7 +22,7 @@ aside{
 	/*background-color: blue;*/
 	padding-top: 20px;
 	position: fixed;
-	width: 125px;
+	width: 8%;
 	text-align: center;
 	height: 100%;
 	border-right: 1px solid;
@@ -21,26 +33,26 @@ aside{
 }
 
 .right_column{
-	width: 36%;
+	/*background-color: blue;*/
+	width: 46%;
 	float: right;
-	height: 600px;
-}
-
-.text_container{
-	margin-left: 125px;
-	width: 50%;
-	float: left;
-	border-right: 1px solid #acacac;
-	height: 600px;
+	height: 840px;
+	border-left: 1px solid #acacac;
 	padding: 30px 20px 30px 20px;
 }
 
+.left_column{
+	width: 46%;
+	float: left;
+}
+
 footer{
-	background-color: yellow;
+	/*background-color: yellow;*/
 	height:100px;
 	clear: both;
 	border-top: 1px solid #acacac;
 	position: relative;
+	background-color: white;
 }
 
 #logo{
@@ -57,4 +69,16 @@ ul{
 
 li{
 	padding-top: 8px;
+}
+
+.footer{
+	color: #acacac;
+	margin-left: 45px;
+	display: inline-block;
+}
+
+.main_content{
+	margin-left: 125px;
+	height: 900px;
+	/*background-color: green;*/
 }
