@@ -1,10 +1,4 @@
-/*Media Screen*/
-/*@media screen and (min-width: 600px){
-	.right_column{
-		display: inline-block;
-	}
-}*/
-
+/*************************Media Screen Stylesheet*****************************/
 
 body{
 	font-family: "Nova Mono";
@@ -33,9 +27,9 @@ aside{
 }
 
 .right_column{
-	
-	width: 47%;
-	float: left;
+	/*background-color: red;*/
+	/*width: 47%;*/
+	/*float: left;*/
 	padding-left: 2%;
 	border-left: 1px solid #acacac;
 	height: 100%;
@@ -44,10 +38,10 @@ aside{
 
 .left_column{
 
-	width: 46%;
+	width: 100%;
 	float: left;
 	padding-left: 2%;
-	padding-right: 2%;
+	
 }
 
 footer{
