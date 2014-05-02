@@ -1,17 +1,9 @@
-/*Media Screen*/
-/*@media screen and (min-width: 600px){
-	.right_column{
-		display: inline-block;
-	}
-}*/
-
-
 body{
 	font-family: "Nova Mono";
 }
 
 header{
-	/*background-color: red;*/
+	
 	height: 75px;
 	font-size: 50px;
 	display: block;
@@ -19,7 +11,7 @@ header{
 }
 
 aside{
-	/*background-color: blue;*/
+	
 	padding-top: 20px;
 	position: fixed;
 	width: 90px;
@@ -27,7 +19,6 @@ aside{
 	height: 100%;
 	border-right: 1px solid;
 	border-color: #acacac;
-	/*float: left;*/
 	top: 0;
 
 }
@@ -51,7 +42,7 @@ aside{
 }
 
 footer{
-	/*background-color: yellow;*/
+	
 	height:100px;
 	clear: both;
 	border-top: 1px solid #acacac;
@@ -61,10 +52,12 @@ footer{
 }
 
 #logo{
+
 	width: 32px;
 }
 
 ul{
+
 	list-style-type: none;
 	margin: 10px;
 	padding: 0px;
@@ -73,19 +66,20 @@ ul{
 }
 
 li{
+
 	padding-top: 8px;
 }
 
 .footer{
+
 	color: #acacac;
 	margin-left: 45px;
 	display: inline-block;
 }
 
 .main_content{
+	
 	margin-left: 90px;
 	height: 900px;
-	/*padding-left: 5px;
-	padding-right: 5px;*/
-	/*background-color: green;*/
+	
 }
